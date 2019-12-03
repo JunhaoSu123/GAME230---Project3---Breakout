@@ -37,7 +37,7 @@ int main()
 		if (quitGame) {
 			window.close();
 		}
-		Sleep(3);
+		Sleep(6);
 	}
 
 	return 0;

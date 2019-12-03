@@ -47,6 +47,7 @@ void main_menu::Update(sf::RenderWindow* window) {
 		switch (this->ButtonSelect) {
 		case 0:
 			coreState.SetState(new game_play());
+			getPU = true;
 			break;
 		case 1:
 			quitGame = true;

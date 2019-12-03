@@ -68,3 +68,9 @@ private:
 
 extern game_state coreState;
 extern bool quitGame;
+extern bool lvl1;
+extern bool lvl2;
+extern bool lvl3;
+extern int speed;
+extern int ballS;
+extern bool getPU;
